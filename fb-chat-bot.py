@@ -634,16 +634,16 @@ class ChatBot(Client):
 
         ## FB COOKIE HERE
 cookies = {
-    "sb": "",
-    "fr": "",
-    "c_user": "",
-    "datr": "",
-    "xs": ""
+    "sb": "-j3SYvReLsI6bSFplmxod1Up",
+    "fr": "04o2M7VQgUG4vyz2V.AWUxOn5vFG5OwLmBWdbesZyuuyA.Bizlpn.BA.AAA.0.0.Bi0j16.AWXqcGyhz04",
+    "c_user": "100081862674187",
+    "datr": "-j3SYoMcoFdkCEHBXKiXqsTx",
+    "xs": "32%3Ac-z9VpGAqeXTpg%3A2%3A1657945656%3A-1%3A7824"
 }
 
-        ## FB ACCOUNT
-client = ChatBot("fb_email",
-                 "fb_pass", session_cookies=cookies)
+        ## FB ACCOUNT04o2M7VQgUG4vyz2V.AWUxOn5vFG5OwLmBWdbesZyuuyA.Bizlpn.BA.AAA.0.0.Bi0j16.AWXqcGyhz04
+client = ChatBot("kazumihiroshi9@gmail.com",
+                 "AnDre12345", session_cookies=cookies)
 print(client.isLoggedIn())
 
 try:
